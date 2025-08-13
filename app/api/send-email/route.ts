@@ -7,8 +7,8 @@ const transporter = nodemailer.createTransport({
   port: 587,
   secure: false,
   auth: {
-    user: "your-email@example.com",
-    pass: "your-password",
+    user: "hihujeje@gmail.com",
+    pass: "rifki123",
   },
 })
 
@@ -63,8 +63,8 @@ export async function POST(request: Request) {
 
     // Send email
     await transporter.sendMail({
-      from: '"GOCARI Platform" <notifications@gocari.org>',
-      to: "admin@gocari.org",
+      from: '"GOCARI Platform" <notifications@gmail.com>',
+      to: "hihujeje@gmail.com",
       subject,
       text,
     })
