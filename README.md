@@ -2,6 +2,9 @@
 
 Aplikasi platform Gocari — media edukasi, UMKM, dan kemanusiaan berbasis web.
 
+## Live Demo
+https://gocari-id.netlify.app/
+
 ## 🧰 Tech Stack
 
 - [Next.js](https://nextjs.org/)
@@ -9,7 +12,7 @@ Aplikasi platform Gocari — media edukasi, UMKM, dan kemanusiaan berbasis web.
 
 ## 🚀 Install & Run Project
 
-### 1. Clone repositori dan masuk ke folder proyek
+### Clone repositori dan masuk ke folder proyek
 
 ```bash
 git clone https://github.com/rifkifrds/goacri-app.git
