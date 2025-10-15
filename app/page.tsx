@@ -44,14 +44,14 @@ export default function Home() {
         variants={fadeInUp}
       >
         <h2 className="text-3xl font-bold text-center mb-8 font-nunito text-slate-800">
-          Dampak <span className="text-amber-500">GOCARI</span> di Tangerang
+          Dampak <span className="text-amber-500">Kue Cakar Ayam</span> di Tanjung pinang
         </h2>
 
         {/* Grid Statistik */}
         <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
           <StatisticsCard
             title="UMKM Terdaftar"
-            value="120+"
+            value="15+"
             description="Usaha mikro, kecil, dan menengah yang tergabung"
             icon="ShoppingBag"
           />
@@ -63,8 +63,8 @@ export default function Home() {
           />
           <StatisticsCard
             title="Relawan Aktif"
-            value="50+"
-            description="Relawan yang aktif membantu program GOCARI"
+            value="10+"
+            description="Relawan yang aktif membantu program Kue Cakar Ayam"
             icon="Users"
           />
         </div>

@@ -38,7 +38,7 @@ export default function AboutPage() {
         </h1>
         <p className="text-slate-600 max-w-3xl mx-auto">
           Mengenal lebih dekat platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga
-          Tangerang.
+          Tanjung Pinang.
         </p>
       </motion.div>
 
@@ -61,7 +61,7 @@ export default function AboutPage() {
                 <h3 className="text-xl font-semibold mb-2 text-amber-500">Visi</h3>
                 <p className="text-slate-700">
                   Menjadi platform digital terdepan yang menghubungkan, memberdayakan, dan meningkatkan kualitas hidup
-                  masyarakat Kota Tangerang melalui edukasi, dukungan ekonomi, dan bantuan kemanusiaan.
+                  masyarakat Kota Tanjung Pinang melalui edukasi, dukungan ekonomi, dan bantuan kemanusiaan.
                 </p>
               </div>
 
@@ -71,7 +71,7 @@ export default function AboutPage() {
                   <li className="flex items-start">
                     <span className="text-teal-500 mr-2">•</span>
                     <span>
-                      Menyediakan akses pendidikan digital yang inklusif bagi seluruh lapisan masyarakat Kota Tangerang
+                      Menyediakan akses pendidikan digital yang inklusif bagi seluruh lapisan masyarakat Kota Tanjung pinang
                     </span>
                   </li>
                   <li className="flex items-start">
@@ -113,13 +113,13 @@ export default function AboutPage() {
           <CardContent className="p-8">
             <div className="text-center max-w-3xl mx-auto">
               <p className="text-slate-700 mb-6">
-                GOCARI diinisiasi oleh sekelompok anak muda Kota Tangerang yang peduli dengan perkembangan digital, ekonomi
+                Kue Cakar Ayam diinisiasi oleh sekelompok anak muda Kota Tanjung pinang yang peduli dengan perkembangan digital, ekonomi
                 lokal, dan kesejahteraan masyarakat. Berawal dari keprihatinan terhadap kesenjangan digital dan ekonomi,
-                kami membangun platform ini untuk menjembatani berbagai kebutuhan warga Kota Tangerang.
+                kami membangun platform ini untuk menjembatani berbagai kebutuhan warga Kota Tanjung pinang.
               </p>
               <p className="text-slate-700">
-                Tim kami terdiri dari programmer, desainer, content creator, dan relawan sosial yang bersatu dengan satu
-                tujuan: membangun Tangerang yang lebih baik melalui teknologi dan kepedulian sosial.
+                Tim kami terdiri dari programmer , desainer, content creator, dan relawan sosial yang bersatu dengan satu
+                tujuan: membangun Tanjung pinang yang lebih baik melalui teknologi dan kepedulian sosial.
               </p>
             </div>
           </CardContent>
