@@ -96,7 +96,7 @@ export default function Home() {
           <motion.div variants={fadeInUp}>
             <FeatureCard
               title="Katalog UMKM"
-              description="Temukan produk dan layanan dari usaha mikro, kecil, dan menengah di Tangerang."
+              description="Temukan produk dan layanan dari usaha mikro, kecil, dan menengah di Tanjung Pinang."
               icon="ShoppingBag"
               href="/umkm"
             />
@@ -105,7 +105,7 @@ export default function Home() {
           <motion.div variants={fadeInUp}>
             <FeatureCard
               title="Bantuan Kemanusiaan"
-              description="Ajukan atau berikan bantuan untuk warga Tangerang yang membutuhkan."
+              description="Ajukan atau berikan bantuan untuk warga Tanjung Pinang yang membutuhkan."
               icon="Heart"
               href="/aid"
             />
@@ -123,7 +123,7 @@ export default function Home() {
           <motion.div variants={fadeInUp}>
             <FeatureCard
               title="Donasi"
-              description="Berikan donasi untuk mendukung program-program GOCARI."
+              description="Berikan donasi untuk mendukung program-program Kue Cakar Ayam."
               icon="Wallet"
               href="/donation"
             />
@@ -132,7 +132,7 @@ export default function Home() {
           <motion.div variants={fadeInUp}>
             <FeatureCard
               title="Cerita Kebaikan"
-              description="Baca kisah inspiratif dari komunitas Tangerang."
+              description="Baca kisah inspiratif dari komunitas Tanjung Pinang."
               icon="MessageCircle"
               href="/stories"
             />
@@ -150,10 +150,10 @@ export default function Home() {
       >
         <div className="text-center">
           <h2 className="text-3xl md:text-4xl font-bold mb-4 font-nunito text-slate-800">
-            Jelajahi <span className="text-amber-500">GOCARI</span> Sekarang
+            Jelajahi <span className="text-amber-500">Kue Cakar Ayam</span> Sekarang
           </h2>
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
-            Temukan berbagai fitur dan layanan yang kami sediakan untuk membantu warga Tangerang. Mari bersama-sama
+            Temukan berbagai fitur dan layanan yang kami sediakan untuk membantu warga Tanjung Pinang. Mari bersama-sama
             membangun komunitas yang lebih baik.
           </p>
 
@@ -182,7 +182,7 @@ export default function Home() {
           Bergabung Sebagai <span className="text-teal-500">Relawan</span>
         </h2>
         <p className="text-center text-slate-600 mb-6 max-w-2xl mx-auto">
-          Jadilah bagian dari perubahan positif di Tangerang. Daftarkan diri Anda sebagai relawan dan bantu kami
+          Jadilah bagian dari perubahan positif di Tanjung Pinang. Daftarkan diri Anda sebagai relawan dan bantu kami
           mewujudkan masyarakat yang lebih baik.
         </p>
         <div className="flex justify-center">

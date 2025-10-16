@@ -11,10 +11,10 @@ import { motion, AnimatePresence } from "framer-motion"
 const bannerData = [
   {
     id: 1,
-    title: "Membangun Kota Tangerang Bersama",
+    title: "Membangun Kota Tanjung Pinang Bersama",
     description:
-      "GOCARI adalah platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga Kota Tangerang.",
-    image: "/banner-tangerang.jpg",
+      "Kue Cakar Ayam adalah Makanan Khas Tanjung Pinang, dengan dukungan UMKM, dan bantuan kemanusiaan bagi warga Kota Tanjung Pinang.",
+    image: "/rumah1.jpeg",
     cta: {
       text: "Ajukan Bantuan",
       link: "/aid",
@@ -22,24 +22,15 @@ const bannerData = [
   },
   {
     id: 2,
-    title: "Dukung UMKM Lokal Warga Kota Tangerang",
-    description: "Temukan dan dukung produk-produk UMKM lokal Kota Tangerang untuk memajukan ekonomi masyarakat.",
-    image: "/banner-umkm.jpg",
+    title: "Dukung UMKM Lokal Warga Kota Tanjung Pinang",
+    description: "Temukan dan dukung produk-produk UMKM lokal Kota Tanjung Pinang untuk memajukan ekonomi masyarakat.",
+    image: "/rumah2.jpeg",
     cta: {
       text: "Lihat Katalog",
       link: "/umkm",
     },
   },
-  {
-    id: 3,
-    title: "Berbagi Kebaikan Untuk Masyarakat Kota Tangerang",
-    description: "Salurkan donasi Anda untuk membantu warga Kota Tangerang yang membutuhkan melalui program-program GOCARI.",
-    image: "/banner-donasi.png",
-    cta: {
-      text: "Donasi Sekarang",
-      link: "/donation",
-    },
-  },
+  
 ]
 
 const HeroBanner = () => {

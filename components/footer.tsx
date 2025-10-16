@@ -7,9 +7,9 @@ const Footer = () => {
       <div className="container mx-auto px-4 py-12">
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div>
-            <h3 className="text-xl font-bold mb-4">GOCARI</h3>
+            <h3 className="text-xl font-bold mb-4">Kue Cakar Ayam</h3>
             <p className="text-slate-300">
-              Platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga Tangerang.
+              Platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga Tanjung Pinang.
             </p>
           </div>
 
@@ -62,7 +62,7 @@ const Footer = () => {
 
           <div>
             <h4 className="font-semibold text-lg mb-4">Hubungi Kami</h4>
-            <p className="text-slate-300 mb-4">Tangerang, Indonesia</p>
+            <p className="text-slate-300 mb-4">Tanjung Pinang, Indonesia</p>
             <div className="flex space-x-4">
               <a href="#" className="text-slate-300 hover:text-white transition-colors">
                 <Facebook size={20} />
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-          <p>&copy; {new Date().getFullYear()} GOCARI. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kue Cakar Ayam. All Rights Reserved.</p>
         </div>
       </div>
     </footer>

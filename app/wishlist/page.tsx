@@ -22,7 +22,7 @@ const wishlistItems = [
   {
     id: 2,
     title: "Kursi Roda untuk Lansia",
-    description: "Dibutuhkan kursi roda untuk lansia di Panti Jompo Cinta Kasih Tangerang.",
+    description: "Dibutuhkan kursi roda untuk lansia di Panti Jompo Cinta Kasih Tanjung Pinang.",
     image: "/wishlist-kursiroda.jpg",
     status: "needed",
     progress: 60,
@@ -95,7 +95,7 @@ export default function WishlistPage() {
           Wishlist <span className="text-amber-500">Donasi</span>
         </h1>
         <p className="text-slate-600 max-w-2xl mx-auto">
-          Berikut adalah daftar barang yang dibutuhkan oleh warga Tangerang. Anda dapat membantu memenuhi kebutuhan ini
+          Berikut adalah daftar barang yang dibutuhkan oleh warga Tanjung Pinang. Anda dapat membantu memenuhi kebutuhan ini
           dengan menghubungi kami.
         </p>
       </motion.div>
@@ -150,7 +150,7 @@ export default function WishlistPage() {
                     disabled={item.status === "fulfilled"}
                   >
                     <a
-                      href={`https://wa.me/${item.whatsappNumber}?text=Hi, saya ingin membantu memenuhi wishlist item: ${item.title} dari GOCARI.`}
+                      href={`https://wa.me/${item.whatsappNumber}?text=Hi, saya ingin membantu memenuhi wishlist item: ${item.title} dari Kue Cakar Ayam.`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >

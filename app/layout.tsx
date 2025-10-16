@@ -20,8 +20,8 @@ const nunito = Nunito({
 })
 
 export const metadata: Metadata = {
-  title: "GOCARI - Platform for Tangerang Citizens",
-  description: "Digital education, UMKM support, and community-based humanitarian aid for Tangerang citizens",
+  title: "Kue Cakar Ayam - Platform for anjung Pinang Citizens",
+  description: "Digital education, UMKM support, and community-based humanitarian aid for anjung Pinang citizens",
     generator: 'v0.dev'
 }
 

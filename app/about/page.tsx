@@ -34,7 +34,7 @@ export default function AboutPage() {
       {/* Header */}
       <motion.div className="text-center mb-16" initial="hidden" animate="visible" variants={fadeInUp}>
         <h1 className="text-4xl md:text-5xl font-bold mb-4 font-nunito text-slate-800">
-          Tentang <span className="text-amber-500">GOCARI</span>
+          Tentang <span className="text-amber-500">Kue Cakar Ayam</span>
         </h1>
         <p className="text-slate-600 max-w-3xl mx-auto">
           Mengenal lebih dekat platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga
@@ -52,7 +52,7 @@ export default function AboutPage() {
       >
         <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
           <motion.div variants={fadeInUp}>
-            <h2 className="text-3xl font-bold mb-6 font-nunito text-slate-800">
+            <h2 className="text-3xl font-bold mb-6 font-nunito text-slate-800"> 
               Visi & <span className="text-amber-500">Misi</span>
             </h2>
 
@@ -92,7 +92,7 @@ export default function AboutPage() {
           </motion.div>
 
           <motion.div variants={fadeInUp} className="relative h-[400px] rounded-2xl overflow-hidden shadow-xl">
-            <Image src="/about-team.jpg" alt="GOCARI Vision" fill className="object-cover" />
+            <Image src="/about-team.jpg" alt="Kue Cakar Ayam Vision" fill className="object-cover" />
           </motion.div>
         </div>
       </motion.section>
@@ -175,7 +175,7 @@ export default function AboutPage() {
               <div className="md:w-1/2 md:text-left order-3">
                 <h3 className="text-2xl font-semibold mb-2 text-teal-500 font-nunito">Dukung UMKM</h3>
                 <p className="text-slate-700">
-                  Temukan dan dukung produk-produk UMKM lokal Kota Tangerang untuk membantu pertumbuhan ekonomi masyarakat.
+                  Temukan dan dukung produk-produk UMKM lokal Kota Tanjung Pinang untuk membantu pertumbuhan ekonomi masyarakat.
                 </p>
               </div>
             </div>
@@ -224,12 +224,12 @@ export default function AboutPage() {
 
               <h3 className="text-xl font-semibold mb-2 font-nunito">WhatsApp</h3>
               <p className="text-slate-600 mb-6 flex-grow">
-                Hubungi admin GOCARI melalui WhatsApp untuk pertanyaan, saran, atau informasi lebih lanjut.
+                Hubungi admin Kue Cakar Ayam melalui WhatsApp untuk pertanyaan, saran, atau informasi lebih lanjut.
               </p>
 
               <Button asChild className="bg-amber-500 hover:bg-amber-600 w-full rounded-xl">
                 <a
-                  href="https://wa.me/6288294799116?text=Halo, saya ingin bertanya tentang GOCARI."
+                  href="https://wa.me/6288294799116?text=Halo, saya ingin bertanya tentang Kue Cakar Ayam."
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -248,7 +248,7 @@ export default function AboutPage() {
 
               <h3 className="text-xl font-semibold mb-2 font-nunito">Email</h3>
               <p className="text-slate-600 mb-6 flex-grow">
-                Kirim email kepada tim GOCARI untuk kerjasama, pertanyaan detail, atau hal lainnya.
+                Kirim email kepada tim Kue Cakar Ayam untuk kerjasama, pertanyaan detail, atau hal lainnya.
               </p>
 
               <Button asChild className="bg-teal-500 hover:bg-teal-600 w-full rounded-xl">
@@ -272,7 +272,7 @@ export default function AboutPage() {
       >
         <div className="text-center">
           <h2 className="text-2xl md:text-3xl font-bold mb-4 font-nunito text-slate-800">
-            Siap Bergabung dengan <span className="text-amber-500">GOCARI</span>?
+            Siap Bergabung dengan <span className="text-amber-500">Kue Cakar Ayam</span>?
           </h2>
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
             Jelajahi platform kami dan temukan berbagai cara untuk belajar, mendukung UMKM, dan membantu sesama.

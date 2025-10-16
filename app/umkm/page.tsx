@@ -17,9 +17,9 @@ const categories = ["Semua", "Makanan", "Kerajinan", "Fashion", "Minuman", "Jasa
 const umkmProducts = [
   {
     id: 1,
-    businessName: "Batik Tangerang",
-    productName: "Batik Khas Tangerang",
-    description: "Batik dengan motif khas Tangerang yang dibuat dengan teknik tradisional.",
+    businessName: "Batik Tanjung Pinang",
+    productName: "Batik Khas Tanjung Pinang",
+    description: "Batik dengan motif khas Tanjung Pinang yang dibuat dengan teknik tradisional.",
     image: "/umkm-batik.jpg",
     whatsappNumber: "6288294799116",
     category: "Fashion",
@@ -62,9 +62,9 @@ const umkmProducts = [
   },
   {
     id: 6,
-    businessName: "Kopi Tangerang",
+    businessName: "Kopi Tanjung Pinang",
     productName: "Kopi Robusta Premium",
-    description: "Kopi robusta premium yang ditanam dan diolah oleh petani lokal Tangerang.",
+    description: "Kopi robusta premium yang ditanam dan diolah oleh petani lokal Tanjung Pinang.",
     image: "/placeholder.svg?height=200&width=400",
     whatsappNumber: "6288294799116",
     category: "Minuman",
@@ -116,7 +116,7 @@ export default function UMKMPage() {
           Katalog <span className="text-amber-500">UMKM</span>
         </h1>
         <p className="text-slate-600 max-w-2xl mx-auto">
-          Temukan produk dan layanan dari usaha mikro, kecil, dan menengah di Tangerang. Dukung ekonomi lokal dengan
+          Temukan produk dan layanan dari usaha mikro, kecil, dan menengah di Tanjung Pinang. Dukung ekonomi lokal dengan
           berbelanja dari UMKM di sekitar Anda.
         </p>
       </motion.div>
@@ -187,7 +187,7 @@ export default function UMKMPage() {
                 <CardFooter>
                   <Button asChild className="w-full bg-amber-500 hover:bg-amber-600 rounded-xl">
                     <a
-                      href={`https://wa.me/${product.whatsappNumber}?text=Halo, saya tertarik dengan produk ${product.productName} dari ${product.businessName} yang saya lihat di GOCARI.`}
+                      href={`https://wa.me/${product.whatsappNumber}?text=Halo, saya tertarik dengan produk ${product.productName} dari ${product.businessName} yang saya lihat di Kue Cakar Ayam.`}
                       target="_blank"
                       rel="noopener noreferrer"
                     >

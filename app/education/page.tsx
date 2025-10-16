@@ -8,7 +8,7 @@ const educationArticles = [
   {
     id: 1,
     title: "Cara Memulai Bisnis Online untuk UMKM",
-    excerpt: "Panduan lengkap untuk memulai bisnis online bagi pelaku UMKM di Tangerang.",
+    excerpt: "Panduan lengkap untuk memulai bisnis online bagi pelaku UMKM di Tanjung Pinang.",
     image: "/placeholder.svg?height=200&width=400",
     videoUrl: "https://www.youtube.com/watch?v=example1",
   },
@@ -56,7 +56,7 @@ export default function EducationPage() {
         <h1 className="text-3xl md:text-4xl font-bold mb-4">Edukasi Digital</h1>
         <p className="text-slate-600 max-w-2xl mx-auto">
           Akses artikel dan video pembelajaran untuk meningkatkan keterampilan digital Anda. Semua konten dirancang
-          khusus untuk membantu warga Tangerang.
+          khusus untuk membantu warga Tanjung Pinang.
         </p>
       </div>
 

@@ -34,16 +34,11 @@ const Navbar = () => {
     { name: "Tentang Kami", href: "/about" },
     { name: "Edukasi Digital", href: "/education" },
     { name: "UMKM", href: "/umkm" },
-    { name: "Wishlist Donasi", href: "/wishlist" }, // Menambahkan Wishlist Donasi
+    { name: "Wishlist Donasi", href: "/wishlist" }, 
   ]
 
-  // Submenu untuk Layanan Kami
-  const serviceLinks = [
-    { name: "Bantuan", href: "/aid" },
-    { name: "Donasi", href: "/donation" },
-    { name: "Relawan", href: "/volunteer" },
-    { name: "Cerita", href: "/stories" },
-  ]
+
+  const serviceLinks = []
 
   return (
     <motion.nav
@@ -54,7 +49,7 @@ const Navbar = () => {
     >
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center h-16">
-          {/* Logo GOCARI dengan animasi */}
+          {/* Logo Kue Cakar Ayam dengan animasi */}
           <motion.div whileHover={{ scale: 1.05 }} transition={{ type: "spring", stiffness: 400, damping: 10 }}>
             <Link
               href="/"
@@ -63,9 +58,9 @@ const Navbar = () => {
             >
               {/* Logo image */}
               <div className="relative w-8 h-8 mr-2">
-                <Image src="/logo-gocari.png" alt="GOCARI Logo" width={40} height={40} className="object-contain" />
+                <Image src="/logo-Kue Cakar Ayam.png" alt="Kue Cakar Ayam Logo" width={40} height={40} className="object-contain" />
               </div>
-              GOCARI
+              Kue Cakar Ayam
             </Link>
           </motion.div>
 
@@ -90,12 +85,12 @@ const Navbar = () => {
             {/* Dropdown Layanan Kami */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
-                <motion.button
+                <motion.button  
                   whileHover={{ scale: 1.05 }}
                   transition={{ type: "spring", stiffness: 400, damping: 17 }}
                   className="text-slate-700 hover:text-amber-500 px-3 py-2 rounded-md text-sm font-medium transition-colors flex items-center"
                 >
-                  Layanan Kami <ChevronDown className="ml-1 h-4 w-4" />
+               
                 </motion.button>
               </DropdownMenuTrigger>
               <DropdownMenuContent align="end" className="w-48 glass rounded-xl border-0 shadow-lg">
@@ -143,7 +138,7 @@ const Navbar = () => {
             ))}
 
             {/* Submenu Layanan Kami untuk mobile */}
-            <div className="px-4 py-2 text-slate-700 font-medium">Layanan Kami</div>
+            <div className="px-4 py-2 text-slate-700 font-medium"></div>
             {serviceLinks.map((service) => (
               <Link
                 key={service.name}
