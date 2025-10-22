@@ -37,7 +37,7 @@ const FeatureCard = ({ title, description, icon, href }: FeatureCardProps) => {
       </CardContent>
       <CardFooter>
         <Button asChild variant="ghost" className="text-amber-500 hover:text-amber-600 p-0">
-          <Link href={href}>Selengkapnya</Link>
+         
         </Button>
       </CardFooter>
     </Card>

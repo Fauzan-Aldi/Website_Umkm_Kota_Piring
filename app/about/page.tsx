@@ -37,8 +37,10 @@ export default function AboutPage() {
           Tentang <span className="text-amber-500">Kue Cakar Ayam</span>
         </h1>
         <p className="text-slate-600 max-w-3xl mx-auto">
-          Mengenal lebih dekat platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga
-          Tanjung Pinang.
+
+Kue Cakar Ayam adalah camilan khas Tanjung Pinang yang dibuat dengan resep tradisional turun temurun. Didirikan oleh Bapak Nasrun, usaha ini berawal dari keinginan sederhana untuk melestarikan cita rasa lokal agar tetap dikenal di tengah gempuran makanan modern.
+
+Kini, Kue Cakar Ayam telah berkembang menjadi salah satu UMKM kebanggaan Kota Tanjung Pinang, menghadirkan produk yang tidak hanya lezat, tetapi juga menjadi simbol dukungan terhadap ekonomi masyarakat lokal.
         </p>
       </motion.div>
 
@@ -60,8 +62,7 @@ export default function AboutPage() {
               <div className="glass rounded-xl p-6 shadow-lg">
                 <h3 className="text-xl font-semibold mb-2 text-amber-500">Visi</h3>
                 <p className="text-slate-700">
-                  Menjadi platform digital terdepan yang menghubungkan, memberdayakan, dan meningkatkan kualitas hidup
-                  masyarakat Kota Tanjung Pinang melalui edukasi, dukungan ekonomi, dan bantuan kemanusiaan.
+                Menjadi usaha kuliner khas Tanjung Pinang yang mampu memperkenalkan cita rasa tradisional ke seluruh Indonesia sambil mendukung pertumbuhan ekonomi masyarakat lokal.
                 </p>
               </div>
 
@@ -71,20 +72,20 @@ export default function AboutPage() {
                   <li className="flex items-start">
                     <span className="text-teal-500 mr-2">•</span>
                     <span>
-                      Menyediakan akses pendidikan digital yang inklusif bagi seluruh lapisan masyarakat Kota Tanjung pinang
+                    Menghadirkan produk camilan tradisional berkualitas dengan bahan pilihan lokal.
                     </span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-teal-500 mr-2">•</span>
-                    <span>Mendukung pertumbuhan UMKM lokal melalui digitalisasi dan perluasan pasar online</span>
+                    <span>Memberdayakan warga sekitar melalui lapangan kerja dan pelatihan produksi.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-teal-500 mr-2">•</span>
-                    <span>Memfasilitasi bantuan kemanusiaan yang tepat sasaran bagi warga yang membutuhkan</span>
+                    <span>Mendukung gerakan UMKM Tanjung Pinang dalam promosi dan pemasaran digital.</span>
                   </li>
                   <li className="flex items-start">
                     <span className="text-teal-500 mr-2">•</span>
-                    <span>Membangun komunitas yang peduli dan aktif berpartisipasi dalam kegiatan sosial</span>
+                    <span>Berkontribusi dalam kegiatan sosial dan kemanusiaan di lingkungan sekitar.</span>
                   </li>
                 </ul>
               </div>
@@ -106,101 +107,22 @@ export default function AboutPage() {
         variants={fadeInUp}
       >
         <h2 className="text-3xl font-bold text-center mb-10 font-nunito text-slate-800">
-          Tim <span className="text-amber-500">Inisiator</span>
+          Tim <span className="text-amber-500">Produksi</span>
         </h2>
 
         <Card className="glass rounded-2xl shadow-xl border-0 overflow-hidden">
           <CardContent className="p-8">
             <div className="text-center max-w-3xl mx-auto">
               <p className="text-slate-700 mb-6">
-                Kue Cakar Ayam diinisiasi oleh sekelompok anak muda Kota Tanjung pinang yang peduli dengan perkembangan digital, ekonomi
-                lokal, dan kesejahteraan masyarakat. Berawal dari keprihatinan terhadap kesenjangan digital dan ekonomi,
-                kami membangun platform ini untuk menjembatani berbagai kebutuhan warga Kota Tanjung pinang.
+              Tim Kue Cakar Ayam terdiri dari warga lokal yang bekerja dengan semangat gotong royong. Semua proses mulai dari pengadonan, penggorengan, hingga pengemasan dilakukan secara higienis dengan menjaga cita rasa asli khas Tanjung Pinang.
+              Kami percaya, dari dapur kecil dapat lahir karya besar yang membawa manfaat bagi masyarakat sekitar.
               </p>
-              <p className="text-slate-700">
-                Tim kami terdiri dari programmer , desainer, content creator, dan relawan sosial yang bersatu dengan satu
-                tujuan: membangun Tanjung pinang yang lebih baik melalui teknologi dan kepedulian sosial.
-              </p>
+             
             </div>
           </CardContent>
         </Card>
       </motion.section>
 
-      {/* Alur Platform */}
-      <motion.section
-        className="mb-20"
-        initial="hidden"
-        whileInView="visible"
-        viewport={{ once: true, amount: 0.3 }}
-        variants={fadeInUp}
-      >
-        <h2 className="text-3xl font-bold text-center mb-10 font-nunito text-slate-800">
-          Alur <span className="text-amber-500">Platform</span>
-        </h2>
-
-        <div className="relative">
-          {/* Garis penghubung */}
-          <div className="absolute left-1/2 top-0 bottom-0 w-1 bg-amber-200 -translate-x-1/2 hidden md:block"></div>
-
-          <div className="space-y-12 relative">
-            {/* Langkah 1 */}
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="md:w-1/2 md:text-right order-2 md:order-1">
-                <h3 className="text-2xl font-semibold mb-2 text-amber-500 font-nunito">Belajar</h3>
-                <p className="text-slate-700">
-                  Akses berbagai konten edukasi digital untuk meningkatkan pengetahuan dan keterampilan Anda dalam
-                  berbagai bidang.
-                </p>
-              </div>
-
-              <div className="relative z-10 order-1 md:order-2">
-                <div className="w-16 h-16 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-                  1
-                </div>
-              </div>
-
-              <div className="md:w-1/2 order-3">{/* Kosong untuk layout */}</div>
-            </div>
-
-            {/* Langkah 2 */}
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="md:w-1/2 order-2 md:order-1">{/* Kosong untuk layout */}</div>
-
-              <div className="relative z-10 order-1 md:order-2">
-                <div className="w-16 h-16 rounded-full bg-teal-500 flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-                  2
-                </div>
-              </div>
-
-              <div className="md:w-1/2 md:text-left order-3">
-                <h3 className="text-2xl font-semibold mb-2 text-teal-500 font-nunito">Dukung UMKM</h3>
-                <p className="text-slate-700">
-                  Temukan dan dukung produk-produk UMKM lokal Kota Tanjung Pinang untuk membantu pertumbuhan ekonomi masyarakat.
-                </p>
-              </div>
-            </div>
-
-            {/* Langkah 3 */}
-            <div className="flex flex-col md:flex-row items-center gap-8">
-              <div className="md:w-1/2 md:text-right order-2 md:order-1">
-                <h3 className="text-2xl font-semibold mb-2 text-amber-500 font-nunito">Bantu Sesama</h3>
-                <p className="text-slate-700">
-                  Berikan bantuan kepada warga yang membutuhkan melalui donasi, pemenuhan wishlist, atau menjadi
-                  relawan.
-                </p>
-              </div>
-
-              <div className="relative z-10 order-1 md:order-2">
-                <div className="w-16 h-16 rounded-full bg-amber-500 flex items-center justify-center text-white font-bold text-2xl shadow-lg">
-                  3
-                </div>
-              </div>
-
-              <div className="md:w-1/2 order-3">{/* Kosong untuk layout */}</div>
-            </div>
-          </div>
-        </div>
-      </motion.section>
 
       {/* Hubungi Kami */}
       <motion.section
@@ -228,11 +150,11 @@ export default function AboutPage() {
               </p>
 
               <Button asChild className="bg-amber-500 hover:bg-amber-600 w-full rounded-xl">
-                <a
-                  href="https://wa.me/6288294799116?text=Halo, saya ingin bertanya tentang Kue Cakar Ayam."
-                  target="_blank"
-                  rel="noopener noreferrer"
-                >
+              <a
+                href="https://wa.me/6281372377185?text=Saya%20ingin%20bertanya%20tentang%20Kue%20Cakar%20Ayam."
+                target="_blank"
+                rel="noopener noreferrer"
+>
                   <MessageSquare className="mr-2 h-4 w-4" />
                   Hubungi via WhatsApp
                 </a>
@@ -252,7 +174,7 @@ export default function AboutPage() {
               </p>
 
               <Button asChild className="bg-teal-500 hover:bg-teal-600 w-full rounded-xl">
-                <a href="mailto:muhamadrifkifirdaus22@gmail.com">
+                <a href="mailto:kuecakarayam@gmail.com">
                   <Mail className="mr-2 h-4 w-4" />
                   Email Kami
                 </a>
@@ -261,6 +183,7 @@ export default function AboutPage() {
           </Card>
         </div>
       </motion.section>
+      
 
       {/* CTA */}
       <motion.section

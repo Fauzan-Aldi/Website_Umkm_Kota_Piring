@@ -13,17 +13,17 @@ const bannerData = [
     id: 1,
     title: "Membangun Kota Tanjung Pinang Bersama",
     description:
-      "Kue Cakar Ayam adalah Makanan Khas Tanjung Pinang, dengan dukungan UMKM, dan bantuan kemanusiaan bagi warga Kota Tanjung Pinang.",
+      " Kue cakar ayam di Tanjungpinang termasuk jenis kue kering yang sudah melegenda di masyarakat. Jenis kue ringan dari ubi jalar atau orang Tanjungpinang menyebutnya kledek memiliki rasa yang gurih dan manis karena di campur dengan gula aren saat menggoreng. ",
     image: "/rumah1.jpeg",
     cta: {
-      text: "Ajukan Bantuan",
+      text: "",
       link: "/aid",
     },
   },
   {
     id: 2,
-    title: "Dukung UMKM Lokal Warga Kota Tanjung Pinang",
-    description: "Temukan dan dukung produk-produk UMKM lokal Kota Tanjung Pinang untuk memajukan ekonomi masyarakat.",
+    title: "Dukung Cita Rasa Lokal dari UMKM Tanjung Pinang",
+    description: "Nikmati dan dukung produk unggulan UMKM lokal yang menjadi kebanggaan warga Tanjung Pinang.Kue Cakar Ayam adalah camilan khas yang dibuat dengan resep tradisional turun-temurun, menghadirkan kelezatan gurih dan renyah yang tak lekang oleh waktu.",
     image: "/rumah2.jpeg",
     cta: {
       text: "Lihat Katalog",
@@ -103,14 +103,7 @@ const HeroBanner = () => {
                   animate={{ y: 0, opacity: 1 }}
                   transition={{ delay: 0.6, duration: 0.5 }}
                 >
-                  <Button
-                    asChild
-                    className="bg-amber-500 hover:bg-amber-600 text-white rounded-xl px-6 py-6 text-lg shadow-lg"
-                  >
-                    <Link href={bannerData[current].cta.link}>
-                      {bannerData[current].cta.text} <ArrowRight className="ml-2 h-5 w-5" />
-                    </Link>
-                  </Button>
+              
                 </motion.div>
               </div>
             </motion.div>

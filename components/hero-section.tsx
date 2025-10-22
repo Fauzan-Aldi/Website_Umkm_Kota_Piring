@@ -16,14 +16,11 @@ const HeroSection = () => {
               Kue Cakar Ayam adalah platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga Tanjung Pinang.
             </p>
             <div className="flex flex-wrap gap-4">
-              <Button asChild className="bg-emerald-600 hover:bg-emerald-700">
+             
                 <Link href="/aid">
-                  Ajukan Bantuan <ArrowRight className="ml-2 h-4 w-4" />
+                 
                 </Link>
-              </Button>
-              <Button asChild variant="outline">
-                <Link href="/donation">Berikan Donasi</Link>
-              </Button>
+            
             </div>
           </div>
           <div className="md:w-1/2 relative">
