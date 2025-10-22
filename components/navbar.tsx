@@ -32,9 +32,9 @@ const Navbar = () => {
   const navLinks = [
     { name: "Beranda", href: "/" },
     { name: "Tentang Kami", href: "/about" },
-    { name: "Edukasi Digital", href: "/education" },
-    { name: "UMKM", href: "/umkm" },
-    { name: "Wishlist Donasi", href: "/wishlist" }, 
+    { name: "Produk Kami", href: "/education" },
+    { name: "Galeri", href: "/umkm" },
+    { name: "Contact", href: "/wishlist" }, 
   ]
 
 

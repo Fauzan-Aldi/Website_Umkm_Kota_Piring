@@ -11,64 +11,38 @@ import { MessageSquare, Search } from "lucide-react"
 import { motion } from "framer-motion"
 
 // Kategori UMKM
-const categories = ["Semua", "Makanan", "Kerajinan", "Fashion", "Minuman", "Jasa", "Lainnya"]
+const categories = ["Semua"]
 
 // Data produk UMKM (biasanya dari Strapi API)
 const umkmProducts = [
   {
     id: 1,
     businessName: "Batik Tanjung Pinang",
-    productName: "Batik Khas Tanjung Pinang",
-    description: "Batik dengan motif khas Tanjung Pinang yang dibuat dengan teknik tradisional.",
-    image: "/umkm-batik.jpg",
+    productName: "",
+    description: "",
+    image: "/",
     whatsappNumber: "6288294799116",
     category: "Fashion",
   },
   {
     id: 2,
     businessName: "Kuliner Betawi",
-    productName: "Kue Cucur Tradisional",
-    description: "Kue cucur tradisional dengan rasa gula aren yang khas, dibuat setiap hari.",
-    image: "/umkm-kuecucur.jpg",
+    productName: "",
+    description: ".",
+    image: "/",
     whatsappNumber: "6288294799116",
     category: "Makanan",
   },
   {
     id: 3,
     businessName: "Kerajinan Bambu",
-    productName: "Anyaman Bambu Dekoratif",
-    description: "Kerajinan Kaca Miror anyaman bambu untuk dekorasi rumah dengan desain minimalis.",
-    image: "/umkm-kerajinanbambu.jpg",
+    productName: "",
+    description: ".",
+    image: "/",
     whatsappNumber: "6288294799116",
     category: "Kerajinan",
   },
-  {
-    id: 4,
-    businessName: "Sabun Alami",
-    productName: "Sabun Herbal Homemade",
-    description: "Sabun alami dengan bahan-bahan herbal pilihan yang aman untuk kulit sensitif.",
-    image: "/placeholder.svg?height=200&width=400",
-    whatsappNumber: "6288294799116",
-    category: "Lainnya",
-  },
-  {
-    id: 5,
-    businessName: "Tas Rajut",
-    productName: "Tas Rajut Handmade",
-    description: "Tas rajut handmade dengan berbagai model dan warna yang trendy.",
-    image: "/placeholder.svg?height=200&width=400",
-    whatsappNumber: "6288294799116",
-    category: "Fashion",
-  },
-  {
-    id: 6,
-    businessName: "Kopi Tanjung Pinang",
-    productName: "Kopi Robusta Premium",
-    description: "Kopi robusta premium yang ditanam dan diolah oleh petani lokal Tanjung Pinang.",
-    image: "/placeholder.svg?height=200&width=400",
-    whatsappNumber: "6288294799116",
-    category: "Minuman",
-  },
+ 
 ]
 
 // Animasi untuk elemen yang muncul saat scroll
@@ -113,11 +87,10 @@ export default function UMKMPage() {
     <div className="container mx-auto px-4 py-12">
       <motion.div className="text-center mb-12" initial="hidden" animate="visible" variants={fadeInUp}>
         <h1 className="text-3xl md:text-4xl font-bold mb-4 font-nunito text-slate-800">
-          Katalog <span className="text-amber-500">UMKM</span>
+          Galeri <span className="text-amber-500">Kue Cakar Ayam</span>
         </h1>
         <p className="text-slate-600 max-w-2xl mx-auto">
-          Temukan produk dan layanan dari usaha mikro, kecil, dan menengah di Tanjung Pinang. Dukung ekonomi lokal dengan
-          berbelanja dari UMKM di sekitar Anda.
+        Galeri Kue Cakar Ayam Di Tanjung Pinang
         </p>
       </motion.div>
 
@@ -125,32 +98,11 @@ export default function UMKMPage() {
       <motion.div className="mb-8" initial="hidden" animate="visible" variants={fadeInUp}>
         {/* Search Bar dengan efek glass */}
         <div className="relative max-w-md mx-auto mb-8">
-          <div className="absolute inset-y-0 left-0 pl-3 flex items-center pointer-events-none">
-            <Search className="h-5 w-5 text-slate-400" />
-          </div>
-          <Input
-            type="text"
-            placeholder="Cari produk, kategori, atau penjual..."
-            value={searchQuery}
-            onChange={(e) => setSearchQuery(e.target.value)}
-            className="pl-10 py-6 glass rounded-xl shadow-md border-0 focus-visible:ring-amber-500"
-          />
+          
+         
         </div>
 
-        {/* Filter Kategori */}
-        <Tabs defaultValue="Semua" value={activeCategory} onValueChange={setActiveCategory} className="w-full">
-          <TabsList className="w-full max-w-4xl mx-auto h-auto flex flex-wrap justify-center gap-2 bg-transparent">
-            {categories.map((category) => (
-              <TabsTrigger
-                key={category}
-                value={category}
-                className="data-[state=active]:bg-amber-500 data-[state=active]:text-white rounded-full px-4 py-2 shadow-sm"
-              >
-                {category}
-              </TabsTrigger>
-            ))}
-          </TabsList>
-        </Tabs>
+       
       </motion.div>
 
       {/* Produk UMKM */}

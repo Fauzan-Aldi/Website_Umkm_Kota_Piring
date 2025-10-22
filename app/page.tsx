@@ -144,7 +144,8 @@ export default function Home() {
             Kenali lebih Dekat <span className="text-amber-500"> Kue Cakar Ayam</span> Sekarang
           </h2>
           <p className="text-slate-600 mb-8 max-w-2xl mx-auto">
-          Pelajari visi, misi, dan perjalanan kami dalam membangun Tanjung Pinang melalui edukasi digital, dukungan UMKM, dan kegiatan kemanusiaan. Mari bersama menciptakan perubahan positif bagi masyarakat.
+          Kenali lebih dekat Kue Cakar Ayam, camilan khas Tanjung Pinang yang dibuat dengan resep tradisional turun-temurun.
+Bersama kami, lestarikan cita rasa lokal dan dukung pertumbuhan ekonomi masyarakat melalui semangat UMKM.
           </p>
 
           <motion.div whileHover={{ scale: 1.05 }} whileTap={{ scale: 0.95 }}>

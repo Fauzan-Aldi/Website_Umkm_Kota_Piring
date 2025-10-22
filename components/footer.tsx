@@ -18,7 +18,7 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/education" className="text-slate-300 hover:text-white transition-colors">
-                  Edukasi Digital
+                  Produk Kami
                 </Link>
               </li>
               <li>
