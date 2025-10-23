@@ -55,7 +55,7 @@ export default function WishlistPage() {
               <CardFooter>
                 <motion.div className="w-full" whileHover={{ scale: 1.03 }} whileTap={{ scale: 0.97 }}>
                   <Button asChild className={`w-full rounded-xl ${item.status === "needed" ? "bg-amber-500 hover:bg-amber-600" : "bg-teal-500 hover:bg-teal-600"}`} disabled={item.status === "fulfilled"}>
-                    <a href={`https://wa.me/${item.whatsappNumber}?text=Hi, saya ingin membantu memenuhi wishlist item: ${item.title} dari Kue Cakar Ayam.`} target="_blank" rel="noopener noreferrer">
+                    <a href={`https://wa.me/${product.whatsappNumber}?text=Halo,  saya ingin membantu memenuhi wishlist item: ${item.title} dari Kue Cakar Ayam.`} target="_blank" rel="noopener noreferrer">
                       <MessageSquare className="mr-2 h-4 w-4" />
                       {item.status === "needed" ? "Saya Ingin Membantu" : "Sudah Terpenuhi"}
                     </a>
@@ -82,7 +82,7 @@ export default function WishlistPage() {
               <p className="text-slate-600 mb-6 flex-grow">Hubungi admin Kue Cakar Ayam melalui WhatsApp untuk pertanyaan, saran, atau informasi lebih lanjut.</p>
               <Button asChild className="bg-amber-500 hover:bg-amber-600 w-full rounded-xl">
                 <a href="https://wa.me/6281372377185?text=Saya%20ingin%20bertanya%20tentang%20Kue%20Cakar%20Ayam." target="_blank" rel="noopener noreferrer">
-                  <MessageSquare className="mr-2 h-4 w-4" /> Hubungi via WhatsApp
+                  <MessageSquare className="mr-2 h-4 w-4" /> Hubungi Via WhatsApp
                 </a>
               </Button>
             </CardContent>

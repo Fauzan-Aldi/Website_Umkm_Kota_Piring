@@ -7,21 +7,21 @@ import Image from "next/image"
 const educationArticles = [
   {
     id: 1,
-    title: "umkm",
-    excerpt: "umkm.",
+    title: "Kue Cakar Ayam Kombinasi Paket Lengkap",
+    excerpt: "Varian lengkap yang berisi beberapa jenis kemasan Kue Cakar Ayam dalam satu paket. Cocok untuk kamu yang ingin mencoba semua versi dari kemasan ekonomis hingga toples spesial. Pilihan pas untuk oleh-oleh keluarga atau acara bersama.",
     image: "/p7.JPG",
   },
   {
     id: 2,
-    title: "umkm",
-    excerpt: "umkm.",
+    title: "Kue Cakar Ayam Kemasan Ekonomis",
+    excerpt: "Dikemas sederhana namun tetap higienis, varian ini cocok untuk camilan harian atau teman minum kopi dan teh. Rasa gurih-manisnya khas dan autentik, menjadikannya pilihan favorit pelanggan setia kami.",
     image: "/p4.JPG",
     
   },
   {
     id: 3,
-    title: "umkm",
-    excerpt: "umkm",
+    title: "Kue Cakar Ayam Toples Spesial",
+    excerpt: "Kue Cakar Ayam dalam kemasan toples elegan yang menjaga kerenyahan lebih lama. Desain kemasan praktis membuatnya ideal untuk stok camilan di rumah, suguhan tamu, atau hampers cantik.",
     image: "/p2.JPG",
    
   },

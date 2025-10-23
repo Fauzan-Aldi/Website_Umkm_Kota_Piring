@@ -57,9 +57,7 @@ const Navbar = () => {
               onClick={handleNavClick}
             >
               {/* Logo image */}
-              <div className="relative w-8 h-8 mr-2">
-                <Image src="/logo-Kue Cakar Ayam.png" alt="Kue Cakar Ayam Logo" width={40} height={40} className="object-contain" />
-              </div>
+             
               Kue Cakar Ayam
             </Link>
           </motion.div>

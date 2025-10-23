@@ -17,30 +17,57 @@ const categories = ["Semua"]
 const umkmProducts = [
   {
     id: 1,
-    businessName: "Batik Tanjung Pinang",
+    businessName: "",
     productName: "",
     description: "",
-    image: "/",
-    whatsappNumber: "6288294799116",
-    category: "Fashion",
+    image: "/oke 4.JPG",
+    whatsappNumber: "",
+    category: "",
   },
   {
     id: 2,
-    businessName: "Kuliner Betawi",
+    businessName: "",
     productName: "",
     description: ".",
-    image: "/",
-    whatsappNumber: "6288294799116",
-    category: "Makanan",
+    image: "/OKE1.png",
+    whatsappNumber: "",
+    category: "",
   },
   {
     id: 3,
-    businessName: "Kerajinan Bambu",
+    businessName: "",
     productName: "",
     description: ".",
-    image: "/",
-    whatsappNumber: "6288294799116",
-    category: "Kerajinan",
+    image: "/OKE2.png",
+    whatsappNumber: "",
+    category: "",
+  },
+  {
+    id: 4,
+    businessName: "",
+    productName: "",
+    description: ".",
+    image: "/OKE7.jpeg",
+    whatsappNumber: "",
+    category: "",
+  },
+  {
+    id: 5,
+    businessName: "",
+    productName: "",
+    description: ".",
+    image: "/OKE9.jpeg",
+    whatsappNumber: "",
+    category: "",
+  },
+  {
+    id: 6,
+    businessName: "",
+    productName: "",
+    description: ".",
+    image: "/OKE8.jpeg",
+    whatsappNumber: "",
+    category: "",
   },
  
 ]
@@ -144,7 +171,7 @@ export default function UMKMPage() {
                       rel="noopener noreferrer"
                     >
                       <MessageSquare className="mr-2 h-4 w-4" />
-                      Hubungi via WhatsApp
+                      Hubungi Via WhatsApp
                     </a>
                   </Button>
                 </CardFooter>

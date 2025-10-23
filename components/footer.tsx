@@ -9,7 +9,7 @@ const Footer = () => {
           <div>
             <h3 className="text-xl font-bold mb-4">Kue Cakar Ayam</h3>
             <p className="text-slate-300">
-              Platform digital untuk edukasi, dukungan UMKM, dan bantuan kemanusiaan bagi warga Tanjung Pinang.
+            Kue cakar ayam di Tanjungpinang termasuk jenis kue kering yang sudah melegenda di masyarakat.
             </p>
           </div>
 
@@ -23,17 +23,17 @@ const Footer = () => {
               </li>
               <li>
                 <Link href="/umkm" className="text-slate-300 hover:text-white transition-colors">
-                  Katalog UMKM
+                  Galeri
                 </Link>
               </li>
               <li>
                 <Link href="/aid" className="text-slate-300 hover:text-white transition-colors">
-                  Bantuan Kemanusiaan
+                  Tentang Kami
                 </Link>
               </li>
               <li>
                 <Link href="/wishlist" className="text-slate-300 hover:text-white transition-colors">
-                  Wishlist Donasi
+                  Contact
                 </Link>
               </li>
             </ul>
@@ -44,17 +44,17 @@ const Footer = () => {
             <ul className="space-y-2">
               <li>
                 <Link href="/stories" className="text-slate-300 hover:text-white transition-colors">
-                  Cerita Kebaikan
+                  Visi & Misi
                 </Link>
               </li>
               <li>
                 <Link href="/volunteer" className="text-slate-300 hover:text-white transition-colors">
-                  Jadi Relawan
+                  Tim Produksi
                 </Link>
               </li>
               <li>
                 <Link href="/donation" className="text-slate-300 hover:text-white transition-colors">
-                  Donasi
+                  
                 </Link>
               </li>
             </ul>
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-slate-800 mt-8 pt-8 text-center text-slate-400">
-          <p>&copy; {new Date().getFullYear()} Kue Cakar Ayam. All Rights Reserved.</p>
+          <p>&copy; {new Date().getFullYear()} Kue Cakar Ayam</p>
         </div>
       </div>
     </footer>
